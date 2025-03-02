@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="navigation">
+            <div>GROUPE__9</div>
+            <ul id="navigationUl">
+                <a href="index.html"><li class="navigationLi">Acceuil</li></a>
+                <a href="apropos.html"><li class="navigationLi">Apropos</li></a>
+                <a href="blog.html"><li class="navigationLi">Blog</li></a>
+                <a href="contact.html"><li class="navigationLi">Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="contact-form">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes là pour répondre à vos questions.</p>
+            <form id="contact-form">
+                <section id="secontact1">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                    
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Nom">
+                </section>
+               
+                <section id="secontact2">
+                    <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                
+                <label for="telephone">Numéro de téléphone</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Numéro de téléphone">
+                </section> 
+                
+                
+                <label for="sujet">Choisissez un sujet</label>
+                <select id="sujet" name="sujet">
+                    <option value="">Sélectionnez un...</option>
+                    <option value="demande">Demande d'information</option>
+                    <option value="support">Support technique</option>
+                    <option value="autre">Autre</option>
+                </select>
+                
+                <div class="contact-method">
+                    <label><input type="radio" name="contact_method" value="email"> Email</label>
+                    <label><input type="radio" name="contact_method" value="telephone"> Téléphone</label>
+                    <label><input type="radio" name="contact_method" value="poste"> Poste</label>
+                    <label><input type="radio" name="contact_method" value="autre"> Autre</label>
+                </div>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tapez votre message..."></textarea>
+                
+                <label for="conditions">
+                    <input type="checkbox" id="conditions" name="conditions"> J'accepte les conditions
+                </label>
+                
+                <button type="submit">Soumettre</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <section id="secinfo">
+                <div class="info-item">
+                    <h2>Email</h2>
+                    <p>Contactez-nous à tout moment</p>
+                    <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <h2>Téléphone</h2>
+                    <p>Appelez-nous pour plus d'infos</p>
+                    <a href="tel:+2290154689784">+229 01 54 68 97 84</a>
+                </div>
+            </section>
+           
+            <div class="info-item">
+                <h2>Bureau</h2>
+                <p>123 Sample St, Sydney NSW 2000 AU</p>
+                <a href="#">Obtenir des directions</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/contact.js"></script>
+    <footer>
+        <p>Copyright 2024 - ATCHADE EVRAD</p>
+        <div class="social-icons">
+                <a href="https://twitter.com/"><img src="image/social-media.png" alt="Logo Twitter" width="25px" height="25px"></a>
+           
+                <a href="https://www.instagram.com/direct/inbox/"><img src="image/instagram.png" alt="Logo Instagram" width="25px" height="25px"></a>
+            
+                <a href="https://www.facebook.com/login.php/"><img src="image/facebook-logo.png" alt="Logo facebook" width="25px" height="25px"></a>
+            
+                <a href="https://www.youtube.com/"><img src="image/youtube.png" alt="Logo youtube" width="28px" height="28px"></a>
+
+                <a href="https://linkedin.com/"><img src="image/linkedin.png" alt="Logo Twitter" width="25px" height="25px"></a>
+        </div>
+    </footer>
+</body>
+</html>
